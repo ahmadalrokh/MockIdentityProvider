@@ -1,0 +1,152 @@
+[
+  {
+    "sub": "a8dcaf09-6405-4171-90cc-71b99cdf5ec7",
+    "clientId": "web-api-client",
+    "clientSecret": null,
+    "preferred_username": "service-account-web-api-client",
+    "realm": "KC",
+    "audiences": [
+      "file-service-client",
+      "workflow-kc-client",
+      "realm-management",
+      "account"
+    ],
+    "allowedOrigins": [ "*", "/*" ],
+    "scopes": [
+      "profile",
+      "Department",
+      "file-managment-audince",
+      "email",
+      "workflow-kc-audince",
+      "EmployeeNumber",
+      "Agency"
+    ],
+    "realmAccess": {
+      "roles": [
+        "offline_access",
+        "default-roles-kc-staging",
+        "uma_authorization"
+      ]
+    },
+    "resourceAccess": {
+      "realm-management": {
+        "roles": [
+          "view-realm",
+          "view-identity-providers",
+          "manage-identity-providers",
+          "impersonation",
+          "realm-admin",
+          "create-client",
+          "manage-users",
+          "query-realms",
+          "view-authorization",
+          "query-clients",
+          "query-users",
+          "manage-events",
+          "manage-realm",
+          "view-events",
+          "view-users",
+          "view-clients",
+          "manage-authorization",
+          "manage-clients",
+          "query-groups"
+        ]
+      },
+      "web-api-client": {
+        "roles": [ "uma_protection" ]
+      },
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    }
+  },
+  {
+    "sub": "4062aecc-a984-4b35-b8e4-f2ab80bf9624",
+    "clientId": "file-service-client",
+    "clientSecret": "file-service-client-secret",
+    "preferred_username": "service-account-file-service-client",
+    "realm": "KC",
+    "audiences": [ "account" ],
+    "allowedOrigins": [ "/*" ],
+    "scopes": [ "profile", "email" ],
+    "realmAccess": {
+      "roles": [
+        "offline_access",
+        "default-roles-kc-staging",
+        "uma_authorization"
+      ]
+    },
+    "resourceAccess": {
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    }
+  },
+  {
+    "sub": "7084b04c-5d7b-4c19-87a5-7064c37ed55c",
+    "clientId": "notification-service-client",
+    "clientSecret": null,
+    "preferred_username": "service-account-notification-service-client",
+    "realm": "KC",
+    "audiences": [ "account" ],
+    "allowedOrigins": [ "/*" ],
+    "scopes": [ "profile", "EmployeeNumber", "Agency", "email" ],
+    "realmAccess": {
+      "roles": [
+        "offline_access",
+        "default-roles-kc-staging",
+        "uma_authorization"
+      ]
+    },
+    "resourceAccess": {
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    }
+  },
+  {
+    "sub": "fc615973-055f-41f1-840a-80bfcb0e98b3",
+    "clientId": "workflow-kc-client",
+    "clientSecret": "workflow-kc-client-secret",
+    "preferred_username": "service-account-workflow-kc-client",
+    "realm": "KC",
+    "audiences": [ "web-api-client", "account" ],
+    "allowedOrigins": [ "/*" ],
+    "scopes": [ "profile", "email" ],
+    "realmAccess": {
+      "roles": [
+        "offline_access",
+        "default-roles-kc-staging",
+        "uma_authorization",
+        "workflow-integration"
+      ]
+    },
+    "resourceAccess": {
+      "web-api-client": {
+        "roles": [ "workflow-integration" ]
+      },
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    }
+  }
+
+
+]
+

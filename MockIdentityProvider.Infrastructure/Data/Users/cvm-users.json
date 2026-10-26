@@ -1,0 +1,1984 @@
+[
+  {
+    "Id": "d24fc16f-fef4-498f-8d4d-aa523f89444c",
+    "Username": "hrc_deputy_director",
+    "FirstName": "الوكيل",
+    "LastName": "تست",
+    "Email": "hrc_deputy_director@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "HRC-DD"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "ADMIN"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CASE-JOURNEY-MGR"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:31.7095687Z"
+      ]
+    }
+  },
+  {
+    "Id": "09c3ab93-6920-4cd5-bd17-39d9bd813247",
+    "Username": "cmp_general_manager",
+    "FirstName": "مدير الادارة العامة للشكاوى",
+    "LastName": "الادارة العامة للشكاوى",
+    "Email": "cmp_general_manager@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CMP-GM"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CASE-JOURNEY-MGR"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CMP"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:31.2342862Z"
+      ]
+    }
+  },
+  {
+    "Id": "4959e78c-ac1a-454b-ac37-d60ff9668c1b",
+    "Username": "cvm-admin",
+    "FirstName": "cvm",
+    "LastName": "admin",
+    "Email": "cvm-admin@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "ADMIN"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:40.7614781Z"
+      ]
+    }
+  },
+  {
+    "Id": "ada57bcb-daba-4fbc-87cd-de0bfdfcf981",
+    "Username": "hrc_vp",
+    "FirstName": "hrc",
+    "LastName": "vp",
+    "Email": "hrc_vp@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "HRC-VP"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CASE-JOURNEY-MGR"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:32.2321453Z"
+      ]
+    }
+  },
+  {
+    "Id": "ef07d03d-207a-4b9a-8e9b-5003309941d6",
+    "Username": "ic-officer_1",
+    "FirstName": "موظف التعاون الدولي",
+    "LastName": "1",
+    "Email": "ic-officer_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "IC-OFC"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:32.7884206Z"
+      ]
+    }
+  },
+  {
+    "Id": "1fb53afe-688f-4c48-b120-7e9798ce87ce",
+    "Username": "acm_1",
+    "FirstName": "acm",
+    "LastName": "1",
+    "Email": "acm_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "ACM"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:33.7259246Z"
+      ]
+    }
+  },
+  {
+    "Id": "04477df8-a7f4-4bf5-a374-905744c5823c",
+    "Username": "ac_secretary",
+    "FirstName": "ac_secretary",
+    "LastName": "",
+    "Email": "ac_secretary@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "ACS"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "AC"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:33.2567786Z"
+      ]
+    }
+  },
+  {
+    "Id": "c69f7de0-5c2c-4861-a217-0d795e19a2ed",
+    "Username": "ci_analyst_1",
+    "FirstName": "ci_analyst ",
+    "LastName": "1",
+    "Email": "ci_analyst_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CI-ANL"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CI"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=المركز الرئيسي الرياض"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:22.8036367Z"
+      ]
+    }
+  },
+  {
+    "Id": "af8d9398-ac16-4aac-adc6-1aa0ee84a080",
+    "Username": "ci_analyst_3",
+    "FirstName": "ci_analyst",
+    "LastName": "3",
+    "Email": "ci_analyst_3@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CI-ANL"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CI"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع عسير"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:23.7349340Z"
+      ]
+    }
+  },
+  {
+    "Id": "7648be61-2545-4fc5-8a4d-57d507ea9681",
+    "Username": "ci_analyst_2",
+    "FirstName": "ci_analyst",
+    "LastName": "2",
+    "Email": "ci_analyst_2@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CI-ANL"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CI"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع عسير"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:23.2727183Z"
+      ]
+    }
+  },
+  {
+    "Id": "304c9f26-4fd6-4d99-b696-5fb9d2523ef2",
+    "Username": "ci_specialist_1",
+    "FirstName": "ci_specialist",
+    "LastName": "1",
+    "Email": "ci_specialist@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CI-SPC"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CI"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:25.1421395Z"
+      ]
+    }
+  },
+  {
+    "Id": "9d4d8bf8-b239-455c-a14a-7089eca09db3",
+    "Username": "ci_specialist_3",
+    "FirstName": "ci_specialist",
+    "LastName": "3",
+    "Email": "ci_specialist_3@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CI-SPC"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CI"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:26.0772921Z"
+      ],
+      "InLeaveUntil": [
+        "10-08-2026"
+      ]
+    }
+  },
+  {
+    "Id": "99174163-8a0f-4bed-a2f4-820f201de058",
+    "Username": "ci_expert_1",
+    "FirstName": "ci_expert",
+    "LastName": "1",
+    "Email": "ci_expert_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CI-EXP"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CI"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:24.2060218Z"
+      ]
+    }
+  },
+  {
+    "Id": "486e29ef-a9b3-4030-9673-b93056d8486b",
+    "Username": "ci_senior_specialist_1",
+    "FirstName": "ci_senior_specialist",
+    "LastName": "_1",
+    "Email": "ci_senior_specialist_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CI-SSP"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CI"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:26.5487761Z"
+      ]
+    }
+  },
+  {
+    "Id": "bbf476c2-e973-4296-804f-ba0bfbf85f2a",
+    "Username": "ci_specialist_2",
+    "FirstName": "ci_specialist",
+    "LastName": "2",
+    "Email": "ci_specialist_2@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CI-SPC"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CI"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع عسير"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:25.6053635Z"
+      ]
+    }
+  },
+  {
+    "Id": "a259c2f3-5328-482b-8e9e-c9e3281eed09",
+    "Username": "ci_team_leader_1",
+    "FirstName": "ci_team_leader",
+    "LastName": "1",
+    "Email": "ci_team_leader_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CI-TLD"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CI"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:27.0142469Z"
+      ]
+    }
+  },
+  {
+    "Id": "ddd66bbd-e51b-40b1-8886-fd62126ddadb",
+    "Username": "ci_manager_1",
+    "FirstName": "ci_manager",
+    "LastName": "1",
+    "Email": "ci_manager_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CI-MGR"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "ADMIN"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CI"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع الجوف"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:24.6747778Z"
+      ]
+    }
+  },
+  {
+    "Id": "46bf022d-f344-4852-ab33-2f8458fc7f65",
+    "Username": "cs_expert_2",
+    "FirstName": "cs_expert",
+    "LastName": "_2",
+    "Email": "cs_expert_2@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CS-EXP"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CS"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع تبوك"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:19.3611757Z"
+      ]
+    }
+  },
+  {
+    "Id": "559f6154-6ac2-4ada-ba4f-37fba75cc729",
+    "Username": "cs_analyst_2",
+    "FirstName": "cs_analyst",
+    "LastName": "2",
+    "Email": "cs_analyst_2@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CS-ANL"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CS"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع القصيم"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:17.9496344Z"
+      ]
+    }
+  },
+  {
+    "Id": "f9519ca9-752d-45c6-8294-6668f1d07f95",
+    "Username": "cs_senior_specialist_1",
+    "FirstName": "cs_senior_specialist",
+    "LastName": "1",
+    "Email": "cs_senior_specialist_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CS-SSP"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CS"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع عسير"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:21.3160338Z"
+      ],
+      "InLeaveUntil": [
+        "01-05-2026"
+      ]
+    }
+  },
+  {
+    "Id": "de5ec3b7-4bba-42cb-a552-8b8d2581c3bd",
+    "Username": "cs_expert_1",
+    "FirstName": "cs_expert",
+    "LastName": "1",
+    "Email": "cs_expert_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CS-EXP"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CS"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع القصيم"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:18.8911897Z"
+      ]
+    }
+  },
+  {
+    "Id": "f09eb89d-5376-4a24-97e9-946a2ba2d20f",
+    "Username": "cs_specialist_1",
+    "FirstName": "cs_specialist",
+    "LastName": "1",
+    "Email": "cs_specialist_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CS-SPC"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CS"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع المنطقة الغربية - مكة - جدة"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:20.8459715Z"
+      ]
+    }
+  },
+  {
+    "Id": "c1343813-6db8-4df6-9bf7-c676b5e45d28",
+    "Username": "cs_analyst_3",
+    "FirstName": "cs_analyst",
+    "LastName": "3",
+    "Email": "cs_analyst_3@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CS-ANL"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CS"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع المدينة المنورة"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:18.4174577Z"
+      ],
+      "InLeaveUntil": [
+        "15-06-2026"
+      ]
+    }
+  },
+  {
+    "Id": "7d910423-9b97-4ef9-bc33-c98e377b0633",
+    "Username": "cs_analyst_1",
+    "FirstName": "cs_analyst",
+    "LastName": "1",
+    "Email": "cs_analyst_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CS-ANL"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CS"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع الجوف"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:17.3170295Z"
+      ]
+    }
+  },
+  {
+    "Id": "e0d46733-76fd-40b9-865b-da43aa515e76",
+    "Username": "cs_team_leader_1",
+    "FirstName": "cs_team_leader",
+    "LastName": "1",
+    "Email": "cs_team_leader_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CS-TLD"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CS"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع نجران"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:21.8728853Z"
+      ]
+    }
+  },
+  {
+    "Id": "5dac75ef-271d-40b0-bfd7-dffb8f20338e",
+    "Username": "cs_manager_1",
+    "FirstName": "cs_manager",
+    "LastName": "1",
+    "Email": "cs_manager_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CS-MGR"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CS"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع جازان"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:19.8987395Z"
+      ]
+    }
+  },
+  {
+    "Id": "de7e5200-2ab1-4245-9006-f6f1e11d0020",
+    "Username": "cs_team_leader_2",
+    "FirstName": "cs_team_leader",
+    "LastName": "2",
+    "Email": "cs_team_leader_2@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CS-TLD"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "CS"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:22.3327560Z"
+      ]
+    }
+  },
+  {
+    "Id": "623147a2-30ed-4b6e-91fe-0070f5d9977d",
+    "Username": "fi_team_leader_1",
+    "FirstName": "fi_team_leader",
+    "LastName": "1",
+    "Email": "fi_team_leader_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "FI-TLD"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "FI"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع المنطقة الغربية - مكة - جدة"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:30.7721126Z"
+      ]
+    }
+  },
+  {
+    "Id": "ae2863b5-c75c-4138-ba63-01ead1e47b9e",
+    "Username": "fi_analyst_1",
+    "FirstName": "fi_analyst",
+    "LastName": "1",
+    "Email": "fi_analyst_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "FI-ANL"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "FI"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:27.4832320Z"
+      ]
+    }
+  },
+  {
+    "Id": "48d09c46-77ce-48e2-a16d-2df1efbc0ec8",
+    "Username": "fi_analyst_3",
+    "FirstName": "fi_analyst",
+    "LastName": "3",
+    "Email": "fi_analyst_3@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "FI-ANL"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "FI"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع الحدود الشمالية"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:28.4115355Z"
+      ]
+    }
+  },
+  {
+    "Id": "f0ec9887-4a09-41a0-a30d-ae683f624ec7",
+    "Username": "fi_analyst_2",
+    "FirstName": "fi_analyst",
+    "LastName": "2",
+    "Email": "fi_analyst_2@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "FI-ANL"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "FI"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع الجوف"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:27.9514531Z"
+      ]
+    }
+  },
+  {
+    "Id": "df075d48-16c6-4f48-bd43-b56ced524780",
+    "Username": "fi_specialist_1",
+    "FirstName": "fi_specialist",
+    "LastName": "1",
+    "Email": "fi_specialist_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "FI-SPC"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "FI"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع نجران"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:30.2834773Z"
+      ]
+    }
+  },
+  {
+    "Id": "a8af0910-8cc6-4759-bc5a-bd07e436d5d4",
+    "Username": "fi_manager_1",
+    "FirstName": "fi_manager",
+    "LastName": "1",
+    "Email": "fi_manager_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "FI-MGR"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "FI"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع عسير"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:29.3477444Z"
+      ],
+      "InLeaveUntil": [
+        "30-06-2026"
+      ]
+    }
+  },
+  {
+    "Id": "b40bbee6-df6e-46f5-979a-e5bb2208b38e",
+    "Username": "fi_manager",
+    "FirstName": "fi_manager",
+    "LastName": "2",
+    "Email": "fi_manager2@hotmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "FI-MGR"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:28.8830183Z"
+      ]
+    }
+  },
+  {
+    "Id": "dfdea8a3-1d12-42cc-88c7-0fd6ee637cc3",
+    "Username": "bsm_specialist_4",
+    "FirstName": "bsm_",
+    "LastName": "specialist_4",
+    "Email": "bsm_specialist_4@hotmail.com",
+    "Roles": [],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ]
+    }
+  },
+  {
+    "Id": "b3fb3724-29d9-4043-b2b6-17637efd575a",
+    "Username": "bsm_team_leader_2",
+    "FirstName": "bsm_team_leader",
+    "LastName": "2",
+    "Email": "bsm_team_leader_2@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BSM-TLD"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "BSM"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع المنطقة الغربية - مكة - جدة"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:15.7158032Z"
+      ]
+    }
+  },
+  {
+    "Id": "eae369d9-00ec-4849-aaaa-19d8a9cc7103",
+    "Username": "bsm_team_leader_1",
+    "FirstName": "قائد فريق خدمات المستفيدين ",
+    "LastName": "1",
+    "Email": "bsm_team_leader_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BSM-TLD"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CASE-JOURNEY-MGR"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "BSM"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع المدينة المنورة"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:15.2374711Z"
+      ]
+    }
+  },
+  {
+    "Id": "33399ee1-743e-47ab-abd4-283a94f88df5",
+    "Username": "bsm_analyst_1",
+    "FirstName": "محلل خدمات المستفيدين",
+    "LastName": "1",
+    "Email": "bsm_analyst_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BSM-ANL"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CASE-JOURNEY-MGR"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "BSM"
+      ],
+      "Area": [
+        "RYD"
+      ],
+      "Mobile": [
+        "0790804555"
+      ],
+      "IdNumber": [
+        "9767765656565"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T13:02:13.0501795Z"
+      ]
+    }
+  },
+  {
+    "Id": "eba152a4-d7de-4f43-90a4-5742f9817b8b",
+    "Username": "bsm_expert_1",
+    "FirstName": "bsm_expert",
+    "LastName": "1",
+    "Email": "bsm_expert_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BSM-EXP"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "BSM"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:13.3621414Z"
+      ]
+    }
+  },
+  {
+    "Id": "69d13ef8-dd1e-43a3-99b4-6d1b57d7208a",
+    "Username": "bsm_specialist_1",
+    "FirstName": "bsm_specialist",
+    "LastName": "1",
+    "Email": "bsm_specialist_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BSM-SPC"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "BSM"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:14.3070818Z"
+      ],
+      "InLeaveUntil": [
+        "01-09-2026"
+      ]
+    }
+  },
+  {
+    "Id": "abb8d365-be22-4cfb-909a-b26b6db5189d",
+    "Username": "bsm_team_leader_4",
+    "FirstName": "bsm_team",
+    "LastName": "_leader_4",
+    "Email": "bsm_team_leader_4@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BSM-TLD"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:16.3246811Z"
+      ]
+    }
+  },
+  {
+    "Id": "2a875bce-b0fa-42c4-b2b3-bfbec0b0010d",
+    "Username": "bsm_senior_specialist_1",
+    "FirstName": "bsm_Senior_specialist",
+    "LastName": "1",
+    "Email": "bsm_senior_specialist_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BSM-SSP"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "BSM"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع الحدود الشمالية"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:14.7731657Z"
+      ]
+    }
+  },
+  {
+    "Id": "b7451fb2-0b3a-4194-8cd6-dc07c02a6096",
+    "Username": "bsm_manager_1",
+    "FirstName": "مديرادارة خدمات المستفيدين",
+    "LastName": "1",
+    "Email": "bsm_manager_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BSM-MGR"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "BSM"
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع الجوف"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:13.8395288Z"
+      ]
+    }
+  },
+  {
+    "Id": "e970a155-7f36-426c-b0f0-fb31fe35090c",
+    "Username": "bsm_analyst_2",
+    "FirstName": "bsm_analyst",
+    "LastName": "2",
+    "Email": "bsm_analyst_2@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CYPRESS-USER"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "CASE-JOURNEY-MGR"
+      },
+      {
+        "ClientId": "web-api-client",
+        "Name": "BSM-ANL"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "BSM"
+      ],
+      "Area": [
+        "RYD"
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        "9767765656565"
+      ],
+      "OU": [
+        "OU=فرع المنطقة الغربية - مكة - جدة"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:12.8959003Z"
+      ]
+    }
+  },
+  {
+    "Id": "8bd01636-eaf2-4ba6-9c95-cee32fe548a3",
+    "Username": "brn_general_manager_1",
+    "FirstName": "HRC ",
+    "LastName": "Branches General Manager ",
+    "Email": "brn_general_manager_1@hrc.gov.sa",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BOF-GM"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        "RYD"
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:34.1953894Z"
+      ]
+    }
+  },
+  {
+    "Id": "31421e53-9c8c-45d4-8a71-1b5da4dba1bf",
+    "Username": "mdm_br_manager_1",
+    "FirstName": "Maddinah Monawarah",
+    "LastName": "Branch Manager",
+    "Email": "mdm_br_manager_1@hrc.gov.sa",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BR-MGR"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع المدينة المنورة"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:37.9616464Z"
+      ]
+    }
+  },
+  {
+    "Id": "907bf9ff-4d71-4920-88cc-1c88e0d90e33",
+    "Username": "njr_br_manager_1",
+    "FirstName": "Najran",
+    "LastName": "Branch Manager",
+    "Email": "njr_br_manager_1@hrc.gov.sa",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BR-MGR"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        "NJR"
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع نجران"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:38.9020571Z"
+      ]
+    }
+  },
+  {
+    "Id": "0c1ca890-ed8f-4274-a347-259efb34ce48",
+    "Username": "br_manager_1",
+    "FirstName": "br_manager",
+    "LastName": "1",
+    "Email": "br_manager_1@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BR-MGR"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع المدينة المنورة"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:35.1270748Z"
+      ]
+    }
+  },
+  {
+    "Id": "45b99f08-70a5-4d5e-b418-45ef91286aa8",
+    "Username": "hal_br_manager_1",
+    "FirstName": "HAIL ",
+    "LastName": "Branch Manager",
+    "Email": "hal_br_manager_1@hrc.gov.sa",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BR-MGR"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        "HAL"
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع حائل"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:36.0696764Z"
+      ]
+    }
+  },
+  {
+    "Id": "1b23aaf4-c8f0-4c33-960b-5475138b9e9f",
+    "Username": "shq_br_manager_1",
+    "FirstName": "Al Sharqiya",
+    "LastName": "Branch Manager",
+    "Email": "shq_br_manager_1@hrc.gov.sa",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BR-MGR"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        "SHQ"
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع المنطقة الشرقية  الدمام"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:39.8275114Z"
+      ]
+    }
+  },
+  {
+    "Id": "be326002-5175-469e-a2e5-65016f6aa708",
+    "Username": "hds_br_manager_1",
+    "FirstName": "مدير فرع ",
+    "LastName": "الحدود الشمالية",
+    "Email": "hds_br_manager_1@hrc.gov.sa",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BR-MGR"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        "HDS"
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع الحدود الشمالية"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:36.5371218Z"
+      ]
+    }
+  },
+  {
+    "Id": "b481b5b8-f9bc-4032-8a8e-76b3c347d716",
+    "Username": "asi_br_manager_1",
+    "FirstName": "Asir",
+    "LastName": "Branch Manager ",
+    "Email": "asi_br_manager_1@hrc.gov.sa",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BR-MGR"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        "ASI"
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع عسير"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:34.6640822Z"
+      ]
+    }
+  },
+  {
+    "Id": "d5201c18-38f6-4a7c-9d39-ad817cc1cce6",
+    "Username": "qsm_br_manager_1",
+    "FirstName": "Qasim",
+    "LastName": "Branch Manager",
+    "Email": "qsm_br_manager_1@hrc.gov.sa",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BR-MGR"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        "QAS"
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع القصيم"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:39.3672521Z"
+      ]
+    }
+  },
+  {
+    "Id": "12147239-a76d-48c0-9d46-af39cc561acc",
+    "Username": "br_manager_2",
+    "FirstName": "br_manager",
+    "LastName": "2",
+    "Email": "br_manager_2@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BR-MGR"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع المنطقة الغربية - مكة - جدة"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:35.5966865Z"
+      ]
+    }
+  },
+  {
+    "Id": "7197b7ff-6022-4d86-b903-cb57e4ce29f2",
+    "Username": "jwf_br_manager_1",
+    "FirstName": "Al JAWF",
+    "LastName": "Branch Manager",
+    "Email": "jwf_br_manager_1@hrc.gov.sa",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BR-MGR"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        "JWF"
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع الجوف"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:37.4957770Z"
+      ]
+    }
+  },
+  {
+    "Id": "93b684c6-2b3e-4e20-8f91-d3afaa644d88",
+    "Username": "mkm_br_manager_1",
+    "FirstName": "Makkah",
+    "LastName": "Branch Manager",
+    "Email": "mkm_br_manager_1@hrc.gov.sa",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BR-MGR"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        ""
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع المنطقة الغربية - مكة - جدة"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:38.4278604Z"
+      ]
+    }
+  },
+  {
+    "Id": "5ef38221-fb5e-4a7a-bede-d4ecac37a090",
+    "Username": "tbk_br_manager_1",
+    "FirstName": "Tabuk",
+    "LastName": "Branch Manager",
+    "Email": "tbk_br_manager_1@hrc.gov.sa",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BR-MGR"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        "TBK"
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع تبوك"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:40.2989036Z"
+      ]
+    }
+  },
+  {
+    "Id": "0b7b709c-15d8-4684-96eb-fc8b3d9bf448",
+    "Username": "jaz_br_manager_1",
+    "FirstName": "Jazan",
+    "LastName": "Branch Manager",
+    "Email": "jaz_br_manager_1@hrc.gov.sa",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "BR-MGR"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Area": [
+        "JAZ"
+      ],
+      "Mobile": [
+        ""
+      ],
+      "IdNumber": [
+        ""
+      ],
+      "OU": [
+        "OU=فرع جازان"
+      ],
+      "LastSyncedUserDate": [
+        "2026-07-02T12:58:37.0176390Z"
+      ]
+    }
+  }
+]

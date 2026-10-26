@@ -1,0 +1,148 @@
+[
+  {
+    "clientId": "admin-client",
+    "clientSecret": "admin-client-secret-key",
+    "realm": "cvm",
+    "sub": "78326ab3-7451-41bd-a7b0-9fe80e55f264",
+    "preferred_username": "service-account-admin-client",
+    "audiences": [ "MockIdentityProvider-Api" ],
+    "allowedOrigins": [ "/*" ],
+    "scopes": [ "profile", "email" ],
+    "realmAccess": {
+      "roles": [ "default-roles-cvm-uat", "offline_access", "uma_authorization" ]
+    },
+    "resourceAccess": {
+      "realm-management": {
+        "roles": [
+          "view-realm",
+          "view-identity-providers",
+          "manage-identity-providers",
+          "impersonation",
+          "realm-admin",
+          "create-client",
+          "manage-users",
+          "query-realms",
+          "view-authorization",
+          "query-clients",
+          "query-users",
+          "manage-events",
+          "manage-realm",
+          "view-events",
+          "view-users",
+          "view-clients",
+          "manage-authorization",
+          "manage-clients",
+          "query-groups"
+        ]
+      },
+      "account": {
+        "roles": [ "manage-account", "manage-account-links", "view-profile" ]
+      }
+    }
+  },
+  {
+    "sub": "d54fb065-a773-4a75-964e-97845b014f29",
+    "clientId": "cvm-system",
+    "clientSecret": "cvm-secret-key",
+    "preferred_username": "service-account-cvm-system",
+    "realm": "cvm",
+    "audiences": [ "web-api-client", "account" ],
+    "allowedOrigins": [ "/*" ],
+    "scopes": [ "profile", "email" ],
+    "realmAccess": {
+      "roles": [ "default-roles-cvm-uat", "offline_access", "uma_authorization" ]
+    },
+    "resourceAccess": {
+      "web-api-client": {
+        "roles": [ "SYSTEM-ACTOR" ]
+      },
+      "account": {
+        "roles": [ "manage-account", "manage-account-links", "view-profile" ]
+      }
+    }
+  },
+  {
+    "clientId": "web-api-client",
+    "clientSecret": "web-api-client-secret-key",
+    "preferred_username": "service-account-web-api-client",
+    "realm": "cvm",
+    "sub": "c4d5ffee-92b8-4ae4-af6e-aef44994cc91",
+    "audiences": [ "web-api-client", "account" ],
+    "allowedOrigins": [ "/*" ],
+    "scopes": [ "profile", "email" ],
+    "realmAccess": {
+      "roles": [ "default-roles-cvm-uat", "offline_access", "uma_authorization" ]
+    },
+    "resourceAccess": {
+      "web-api-client": {
+        "roles": [ "uma_protection" ]
+      },
+      "account": {
+        "roles": [ "manage-account", "manage-account-links", "view-profile" ]
+      }
+    }
+  },
+  {
+    "clientId": "crm-system",
+    "clientSecret": "crm-secret-key",
+    "sub": "cfcc6398-81b7-47c5-8f5b-7378154dab21",
+    "preferred_username": "service-account-crm-system",
+    "allowedOrigins": [ "/*" ],
+    "audiences": [ "web-api-client", "account" ],
+    "realm": "cvm",
+    "realmAccess": {
+      "roles": [ "default-roles-cvm-uat", "offline_access", "uma_authorization" ]
+    },
+    "resourceAccess": {
+      "web-api-client": {
+        "roles": [ "external-integration" ]
+      },
+      "account": {
+        "roles": [ "manage-account", "manage-account-links", "view-profile" ]
+      }
+    },
+    "scopes": [ "profile", "email" ]
+  },
+  {
+    "sub": "d668aa33-8c12-4056-9b8c-d847ebfe1510",
+    "clientId": "portals-system",
+    "clientSecret": "portals-secret-key",
+    "preferred_username": "service-account-portals-system",
+    "allowedOrigins": [ "/*" ],
+    "audiences": [ "web-api-client", "account" ],
+    "realm": "cvm",
+    "realmAccess": {
+      "roles": [ "default-roles-cvm-uat", "offline_access", "uma_authorization" ]
+    },
+    "resourceAccess": {
+      "web-api-client": {
+        "roles": [ "external-integration" ]
+      },
+      "account": {
+        "roles": [ "manage-account", "manage-account-links", "view-profile" ]
+      }
+    },
+    "scopes": [ "profile", "email" ]
+  },
+  {
+    "sub": "3ae8e9c4-7aca-40e6-9af2-8e2fa2d00ec3",
+    "clientSecret": "moamalat-secret-key",
+    "clientId": "moamalat-system",
+    "preferred_username": "service-account-moamalat-system",
+    "allowedOrigins": [ "/*" ],
+    "audiences": [ "web-api-client", "account" ],
+    "realm": "cvm",
+    "realmAccess": {
+      "roles": [ "default-roles-cvm-uat", "offline_access", "uma_authorization" ]
+    },
+    "resourceAccess": {
+      "web-api-client": {
+        "roles": [ "external-integration" ]
+      },
+      "account": {
+        "roles": [ "manage-account", "manage-account-links", "view-profile" ]
+      }
+    },
+    "scopes": [ "profile", "email" ]
+  }
+]

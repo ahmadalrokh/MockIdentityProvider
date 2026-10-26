@@ -1,0 +1,525 @@
+/* ==========================================================================
+   OIDC Identity Selection — Login.css
+   Theme: "Identity Console" — dark control-room surface, teal verification glow
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+    --bg-deep: #0a0f1c;
+    --bg-panel: #121b2e;
+    --bg-panel-2: #182337;
+    --bg-row-hover: #1b2a42;
+    --border: #22304a;
+    --border-soft: #1a2740;
+    --text-primary: #eaf0fb;
+    --text-muted: #8595b3;
+    --text-faint: #56658a;
+    --accent: #2dd4c4;
+    --accent-strong: #21b8aa;
+    --accent-dim: rgba(45, 212, 196, 0.14);
+    --accent-glow: rgba(45, 212, 196, 0.35);
+    --radius-lg: 20px;
+    --radius-md: 14px;
+    --radius-sm: 9px;
+    --font-display: 'Tajawal', 'Segoe UI', sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+body {
+    font-family: var(--font-display);
+    background: var(--bg-deep);
+    color: var(--text-primary);
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Full-viewport centering wrapper — independent of any parent layout
+   (Bootstrap containers, existing _Layout.cshtml, etc.) */
+.page-center {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 16px;
+    overflow-y: auto;
+    /* When content is taller than viewport, align to top so user can scroll to it */
+    align-content: flex-start;
+}
+
+/* ---- ambient background: faint grid + two soft glow blobs ---- */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: linear-gradient(var(--border-soft) 1px, transparent 1px), linear-gradient(90deg, var(--border-soft) 1px, transparent 1px);
+    background-size: 42px 42px;
+    mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, #000 0%, transparent 75%);
+    opacity: 0.5;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.glow-blob {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(90px);
+    opacity: 0.25;
+    pointer-events: none;
+    z-index: 0;
+}
+
+    .glow-blob.one {
+        width: 460px;
+        height: 460px;
+        top: -120px;
+        right: -100px;
+        background: var(--accent);
+        animation: drift 14s ease-in-out infinite alternate;
+    }
+
+    .glow-blob.two {
+        width: 380px;
+        height: 380px;
+        bottom: -140px;
+        left: -100px;
+        background: #3a6df0;
+        animation: drift 18s ease-in-out infinite alternate-reverse;
+    }
+
+@keyframes drift {
+    from {
+        transform: translate(0, 0) scale(1);
+    }
+
+    to {
+        transform: translate(20px, -25px) scale(1.06);
+    }
+}
+
+/* ==========================================================================
+   Shell
+   ========================================================================== */
+
+.auth-shell {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+/* ---- top request badge ---- */
+.request-badge {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 14px;
+    padding: 10px 18px;
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    color: var(--text-muted);
+}
+
+    .request-badge .badge-label {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .request-badge .dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: var(--accent);
+        box-shadow: 0 0 0 3px var(--accent-dim);
+        flex-shrink: 0;
+    }
+
+    .request-badge .authz-id {
+        color: var(--accent);
+        letter-spacing: 0.3px;
+        direction: ltr;
+        unicode-bidi: isolate;
+    }
+
+/* ---- panel ---- */
+.auth-panel {
+    background: linear-gradient(180deg, var(--bg-panel) 0%, var(--bg-panel-2) 100%);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.02) inset;
+    padding: 32px 40px 24px;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+/* ---- header ---- */
+.auth-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.auth-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+    background: var(--accent-dim);
+    border: 1px solid rgba(45, 212, 196, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    color: var(--accent);
+}
+
+    .auth-icon svg {
+        width: 28px;
+        height: 28px;
+    }
+
+.auth-title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.4;
+    margin: 0 0 8px;
+    color: var(--text-primary);
+}
+
+    .auth-title .system-name {
+        color: var(--accent);
+    }
+
+.auth-subtitle {
+    margin: 0;
+    font-size: 14.5px;
+    color: var(--text-muted);
+    font-weight: 400;
+    max-width: 480px;
+}
+
+/* ---- search ---- */
+.identity-search {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    /* Icon sits on the RIGHT side (which is the start side in RTL) */
+    .identity-search svg {
+        position: absolute;
+        top: 50%;
+        right: 16px;
+        left: auto;
+        transform: translateY(-50%);
+        width: 17px;
+        height: 17px;
+        color: var(--text-faint);
+        pointer-events: none;
+    }
+
+    .identity-search input {
+        width: 100%;
+        background: var(--bg-deep);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-md);
+        /* RTL: padding-right leaves room for the icon, padding-left is the end */
+        padding: 12px 46px 12px 16px;
+        font-family: var(--font-display);
+        font-size: 14px;
+        color: var(--text-primary);
+        text-align: right;
+        direction: rtl;
+        outline: none;
+        transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+        .identity-search input::placeholder {
+            color: var(--text-faint);
+            text-align: right;
+        }
+
+        .identity-search input:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-dim);
+        }
+
+/* ==========================================================================
+   Identity table
+   ========================================================================== */
+
+.identity-table-wrap {
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    /* Scroll only the table rows — header, search bar & footer stay fixed */
+    max-height: 45vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+
+table.identity-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.identity-table thead th {
+    background: var(--bg-deep);
+    text-align: right;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-faint);
+    letter-spacing: 0.4px;
+    padding: 13px 20px;
+    border-bottom: 1px solid var(--border);
+    /* Stick column labels to top while scrolling the table body */
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+    .identity-table thead th:last-child {
+        text-align: center;
+    }
+
+.identity-table tbody tr {
+    border-bottom: 1px solid var(--border-soft);
+    transition: background-color 0.15s ease;
+}
+
+    .identity-table tbody tr:last-child {
+        border-bottom: none;
+    }
+
+    .identity-table tbody tr:hover {
+        background: var(--bg-row-hover);
+    }
+
+.identity-table td {
+    padding: 13px 20px;
+    font-size: 14px;
+    color: var(--text-primary);
+    vertical-align: middle;
+}
+
+/* user cell: avatar + username */
+.user-cell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar {
+    flex-shrink: 0;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    background: var(--accent-dim);
+    border: 1px solid rgba(45, 212, 196, 0.3);
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: var(--font-mono);
+    transition: box-shadow 0.15s ease;
+}
+
+.identity-table tbody tr:hover .avatar {
+    box-shadow: 0 0 0 4px var(--accent-dim);
+}
+
+.username-text {
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    color: var(--text-muted);
+    direction: ltr;
+    unicode-bidi: isolate;
+    display: block;
+}
+
+.fullname-text {
+    font-weight: 500;
+}
+
+.dept-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: var(--bg-panel-2);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-size: 12.5px;
+    color: var(--text-muted);
+}
+
+/* login button */
+.btn-login-row {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 9px 18px;
+    background: transparent;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    border-radius: var(--radius-sm);
+    font-family: var(--font-display);
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+    white-space: nowrap;
+}
+
+    .btn-login-row svg {
+        width: 14px;
+        height: 14px;
+    }
+
+    .btn-login-row:hover {
+        background: var(--accent);
+        color: #06201d;
+        box-shadow: 0 0 24px var(--accent-glow);
+    }
+
+    .btn-login-row:active {
+        transform: scale(0.97);
+    }
+
+.identity-table td:last-child {
+    text-align: center;
+}
+
+/* empty state (search no match) */
+.empty-state {
+    display: none;
+    padding: 40px 20px;
+    text-align: center;
+    color: var(--text-faint);
+    font-size: 13.5px;
+}
+
+    .empty-state.visible {
+        display: block;
+    }
+
+/* ---- footer ---- */
+.auth-footer {
+    margin-top: 26px;
+    padding-top: 18px;
+    border-top: 1px solid var(--border-soft);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: var(--text-faint);
+    font-size: 12.5px;
+}
+
+    .auth-footer svg {
+        width: 14px;
+        height: 14px;
+        color: var(--accent);
+    }
+
+/* ==========================================================================
+   Responsive — table becomes stacked identity cards
+   ========================================================================== */
+
+@media (max-width: 700px) {
+    .auth-panel {
+        padding: 28px 18px 22px;
+    }
+
+    .auth-title {
+        font-size: 21px;
+    }
+
+    .identity-table thead {
+        display: none;
+    }
+
+    .identity-table, .identity-table tbody, .identity-table tr, .identity-table td {
+        display: block;
+        width: 100%;
+    }
+
+        .identity-table tbody tr {
+            padding: 14px 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .identity-table td {
+            padding: 0;
+        }
+
+            .identity-table td[data-label]::before {
+                content: attr(data-label);
+                display: block;
+                font-size: 11px;
+                color: var(--text-faint);
+                margin-bottom: 4px;
+                font-weight: 700;
+            }
+
+            .identity-table td:last-child {
+                text-align: right;
+                margin-top: 4px;
+            }
+
+    .btn-login-row {
+        width: 100%;
+        justify-content: center;
+        padding: 11px 18px;
+    }
+}
+
+@media (max-width: 420px) {
+    .request-badge {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+        gap: 6px;
+    }
+}
+
+/* ---- reduced motion ---- */
+@media (prefers-reduced-motion: reduce) {
+    .glow-blob {
+        animation: none;
+    }
+
+    * {
+        transition: none !important;
+    }
+}
+
+/* ---- focus visibility ---- */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}

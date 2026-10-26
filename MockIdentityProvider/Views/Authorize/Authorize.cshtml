@@ -1,0 +1,135 @@
+@model LoginViewModel
+@{
+    Layout = null;
+}
+
+<link rel="stylesheet" href="~/css/Login.css" />
+  
+ <div class="glow-blob one"></div>
+    <div class="glow-blob two"></div>
+
+    <div class="page-center">
+        <div class="auth-shell">
+
+            <div class="request-badge">
+                <span class="badge-label">
+                    <span class="dot"></span>
+                    طلب مصادقة نشط
+                </span>
+                <span class="authz-id">@Model.AuthzId</span>
+            </div>
+
+            <div class="auth-panel">
+
+                <div class="auth-header">
+                    <div class="auth-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L4 5V11C4 16.5 7.4 21.2 12 22C16.6 21.2 20 16.5 20 11V5L12 2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
+                            <path d="M9 12L11.2 14.2L15.5 9.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h1 class="auth-title" id="auth-title">
+                        تسجيل الدخول إلى  <span class="system-name">@Model.SystemName</span>
+                    </h1>
+                    <p class="auth-subtitle">
+                        اختر الهوية التي تريد المتابعة بها للوصول إلى النظام
+                    </p>
+                </div>
+
+                <form method="post" action="@Url.Action("Login", "Account")" id="identityForm">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="AuthzId" value="@Model.AuthzId" />
+
+                    <div class="identity-search">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.6" />
+                            <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+                        </svg>
+                        <input type="text" id="searchInput" autocomplete="off" placeholder="ابحث بالاسم، اسم المستخدم أو القسم..." />
+                    </div>
+
+                    <div class="identity-table-wrap">
+                        <table class="identity-table" id="identityTable">
+                            <tbody>
+                                @foreach (var user in Model.UserList)
+                                {
+                                    var initial = !string.IsNullOrEmpty(user.fullName)
+                                        ? user.fullName.Substring(0, 1)
+                                        : (!string.IsNullOrEmpty(user.Username) ? user.Username.Substring(0, 1) : "?");
+
+                                    <tr data-search="@($"{user.Username} {user.fullName} {user.Department}".ToLower())">
+                                        <td data-label="اسم المستخدم">
+                                            <div class="user-cell">
+                                                <span class="avatar">@initial</span>
+                                                <span class="username-text">@user.Username</span>
+                                            </div>
+                                        </td>
+                                        <td data-label="الاسم الكامل">
+                                            <span class="fullname-text">@user.fullName</span>
+                                        </td>
+                                        <td data-label="القسم">
+                                            <span class="dept-badge">@user.Department</span>
+                                        </td>
+                                        <td data-label="">
+                                            <button type="submit" class="btn-login-row" name="SelectedUserId" value="@user.UserId">
+                                                <span>تسجيل الدخول</span>
+                                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14 5L20 12L14 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                        <div class="empty-state" id="emptyState">
+                            لا يوجد نتائج مطابقة لبحثك
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+            (function () {
+                var searchInput = document.getElementById('searchInput');
+                var rows = Array.prototype.slice.call(document.querySelectorAll('#identityTable tbody tr'));
+                var emptyState = document.getElementById('emptyState');
+
+                searchInput.addEventListener('input', function () {
+                    var q = this.value.trim().toLowerCase();
+                    var visibleCount = 0;
+
+                    rows.forEach(function (row) {
+                        var match = row.getAttribute('data-search').indexOf(q) !== -1;
+                        row.style.display = match ? '' : 'none';
+                        if (match) visibleCount++;
+                    });
+
+                    emptyState.classList.toggle('visible', visibleCount === 0);
+                });
+
+                searchInput.addEventListener('keydown', function (e) {
+                    if (e.key === 'Enter') {
+                        e.preventDefault(); // Prevent default form submission
+
+                        var q = this.value.trim();
+                        if (q === '') return; // Do nothing if search is empty
+
+                        // Find the first visible row and click its login button
+                        for (var i = 0; i < rows.length; i++) {
+                            if (rows[i].style.display !== 'none') {
+                                var btn = rows[i].querySelector('.btn-login-row');
+                                if (btn) btn.click();
+                                break;
+                            }
+                        }
+                    }
+                });
+            })();
+    </script>
+

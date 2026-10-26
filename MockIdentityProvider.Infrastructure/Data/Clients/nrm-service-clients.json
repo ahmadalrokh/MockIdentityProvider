@@ -1,0 +1,329 @@
+[
+  {
+    "clientId": "cvm-system",
+    "clientSecret": "cvm-system-secret-key",
+    "realm": "nrm",
+    "sub": "c617e069-689a-4868-8083-3088b1ec2d95",
+    "preferred_username": "service-account-cvm-system",
+    "audiences": [
+      "workflow-nrm-management-audience"
+    ],
+    "allowedOrigins": [
+      "/*"
+    ],
+    "scopes": [
+      "area",
+      "service_account",
+      "web-origins",
+      "acr",
+      "workflow-nrm-management-audience",
+      "agency",
+      "phone",
+      "roles",
+      "profile",
+      "basic",
+      "email"
+    ],
+    "resource_access": {
+      "nrm-web-api-client": {
+        "roles": [
+          "first-responder",
+          "external-integration"
+        ]
+      },
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    }
+  },
+  {
+    "clientId": "file-service-client",
+    "clientSecret": "file-service-client-secret-key",
+    "realm": "nrm",
+    "sub": "3d49bb23-3d1a-484d-bae7-c81310daff74",
+    "preferred_username": "service-account-file-service-client",
+    "audiences": [],
+    "allowedOrigins": [
+      "/*"
+    ],
+    "scopes": [
+      "area",
+      "web-origins",
+      "acr",
+      "agency",
+      "roles",
+      "profile",
+      "basic",
+      "email"
+    ],
+    "realm_access": {
+      "roles": [
+        "offline_access",
+        "default-roles-stg-nrm",
+        "uma_authorization"
+      ]
+    },
+    "resource_access": {
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    }
+  },
+  {
+    "clientId": "notification-service-client",
+    "clientSecret": "notification-service-client-secret-key",
+    "realm": "nrm",
+    "sub": "d9bc693b-b862-49ec-bceb-fadc41acced0",
+    "preferred_username": "service-account-notification-service-client",
+    "audiences": [],
+    "allowedOrigins": [
+      "/*"
+    ],
+    "scopes": [
+      "area",
+      "service_account",
+      "web-origins",
+      "acr",
+      "agency",
+      "roles",
+      "profile",
+      "basic",
+      "email"
+    ],
+    "realm_access": {
+      "roles": [
+        "offline_access",
+        "default-roles-stg-nrm",
+        "uma_authorization"
+      ]
+    },
+    "resource_access": {
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    }
+  },
+  {
+    "clientId": "nrm-admin-client",
+    "clientSecret": "nrm-admin-client-secret-key",
+    "realm": "nrm",
+    "sub": "091ec8a8-eda0-4f0a-9e51-0e2921875573",
+    "preferred_username": "service-account-nrm-admin-client",
+    "audiences": [],
+    "allowedOrigins": [
+      "/*"
+    ],
+    "scopes": [
+      "web-origins",
+      "acr",
+      "roles",
+      "profile",
+      "basic",
+      "email"
+    ],
+    "realm_access": {
+      "roles": [
+        "offline_access",
+        "default-roles-stg-nrm",
+        "uma_authorization"
+      ]
+    },
+    "resource_access": {
+      "realm-management": {
+        "roles": [
+          "view-identity-providers",
+          "view-realm",
+          "manage-identity-providers",
+          "impersonation",
+          "realm-admin",
+          "create-client",
+          "manage-users",
+          "query-realms",
+          "view-authorization",
+          "query-clients",
+          "query-users",
+          "manage-events",
+          "manage-realm",
+          "view-events",
+          "view-users",
+          "view-clients",
+          "manage-authorization",
+          "manage-clients",
+          "query-groups"
+        ]
+      }
+    }
+  },
+  {
+    "clientId": "nrm-react-client",
+    "clientSecret": "nrm-react-client-secret-key",
+    "realm": "nrm",
+    "sub": "8568071f-892a-4a90-b3bb-7978898bed29",
+    "preferred_username": "service-account-nrm-react-client",
+    "audiences": [
+      "file-management-audience",
+      "nrm-api-audience"
+    ],
+    "allowedOrigins": [
+      "",
+      "*",
+      "http://localhost:5173"
+    ],
+    "scopes": [
+      "area",
+      "web-origins",
+      "acr",
+      "agency",
+      "roles",
+      "profile",
+      "file-management-audience",
+      "basic",
+      "nrm-api-audience",
+      "email",
+      "contact-officer"
+    ],
+    "realmAccess": {
+      "roles": []
+    },
+    "resourceAccess": {}
+  },
+  {
+    "clientId": "nrm-web-api-client",
+    "clientSecret": "nrm-web-api-client-secret-key",
+    "realm": "nrm",
+    "sub": "4dfdc26e-623f-424e-bddd-06cbfc172f47",
+    "preferred_username": "service-account-nrm-web-api-client",
+    "audiences": [
+      "workflow-nrm-management-audience",
+      "notification-audience",
+      "file-management-audience",
+      "nrm-api-audience"
+    ],
+    "allowedOrigins": [
+      "/*"
+    ],
+    "scopes": [
+      "area",
+      "service_account",
+      "workflow-nrm-management-audience",
+      "agency",
+      "profile",
+      "roles",
+      "contact-officer",
+      "web-origins",
+      "acr",
+      "notification-audience",
+      "file-management-audience",
+      "basic",
+      "email",
+      "nrm-api-audience"
+    ],
+    "realm_access": {
+      "roles": [
+        "offline_access",
+        "default-roles-stg-nrm",
+        "uma_authorization"
+      ]
+    },
+    "resource_access": {
+      "nrm-web-api-client": {
+        "roles": [
+          "uma_protection"
+        ]
+      },
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    }
+  },
+  {
+    "clientId": "workflow-client",
+    "clientSecret": "workflow-client-secret-key",
+    "realm": "nrm",
+    "sub": "0a5ee348-e4de-426a-abbf-f37d25d8c529",
+    "preferred_username": "service-account-workflow-client",
+    "audiences": [
+      "workflow-nrm-management-audience"
+    ],
+    "allowedOrigins": [
+      "/*"
+    ],
+    "scopes": [
+      "area",
+      "service_account",
+      "web-origins",
+      "acr",
+      "workflow-nrm-management-audience",
+      "agency",
+      "phone",
+      "roles",
+      "profile",
+      "basic",
+      "email"
+    ],
+    "realmAccess": {
+      "roles": [
+        "offline_access",
+        "default-roles-stg-nrm",
+        "uma_authorization",
+        "workflow-integration"
+      ]
+    },
+    "resource_access": {
+      "nrm-web-api-client": {
+        "roles": [
+          "workflow-integration"
+        ]
+      },
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    }
+  },
+  {
+    "clientId": "workflow-nrm-client",
+    "clientSecret": "workflow-nrm-client-secret-key",
+    "realm": "nrm",
+    "sub": "152c780f-9765-4855-9323-872a6b660df8",
+    "preferred_username": "service-account-workflow-nrm-client",
+    "audiences": [],
+    "allowedOrigins": [
+      "/*"
+    ],
+    "scopes": [
+      "area",
+      "web-origins",
+      "acr",
+      "agency",
+      "phone",
+      "roles",
+      "profile",
+      "basic",
+      "email"
+    ],
+    "realmAccess": {
+      "roles": []
+    },
+    "resourceAccess": {}
+  }
+]

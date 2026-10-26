@@ -1,0 +1,432 @@
+[
+  {
+    "Id": "1363133a-a715-4f94-b1f0-a7571fa06c18",
+    "Username": "manager6",
+    "FirstName": "manager",
+    "LastName": "6",
+    "Email": "",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "Manager"
+      }
+    ],
+    "Attributes": {
+      "Department": ["6" ],
+      "Agency": [ "2" ],
+      "EmployeeNumber": [ "" ]
+    }
+  },
+  {
+    "Id": "31623633-f0b8-4245-9c4d-3bc712dfa81e",
+    "Username": "knowledgespecialist1",
+    "FirstName": "\u062E\u0644\u064A\u0644 ",
+    "LastName": "\u0639\u0646\u0643\u0648\u0634 - \u0627\u062E\u0635\u0627\u0626\u064A \u0645\u0631\u0643\u0632 \u0627\u0644\u0645\u0639\u0631\u0641\u0629",
+    "Email": "knowledgespecialist1@email.ocm",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "KnowledgeSpecialist"
+      }
+    ],
+    "Attributes": {
+      "Department": ["81"],
+      "Agency": ["27"],
+      "EmployeeNumber": ["4"]
+    }
+  },
+  {
+    "Id": "33e28365-64c7-4fc8-8cc7-c33b10f623d3",
+    "Username": "employee8",
+    "FirstName": "employee",
+    "LastName": "8",
+    "Email": "",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "Applicant"
+      }
+    ],
+    "Attributes": {
+      "Department": ["8"],
+      "Agency": ["2"],
+      "EmployeeNumber": [""]
+    }
+  },
+  {
+    "Id": "44e6f83c-a5f6-45bf-a52d-ab4325785e48",
+    "Username": "employee7",
+    "FirstName": "emnployee",
+    "LastName": "7",
+    "Email": "",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "Applicant"
+      }
+    ],
+    "Attributes": {
+      "Department": [ "20"],
+      "Agency": ["3"],
+      "EmployeeNumber": [ ""]
+    }
+  },
+  {
+    "Id": "46d61c6c-c72e-4800-a8a3-cc9b43046f27",
+    "Username": "employee4",
+    "FirstName": "employee",
+    "LastName": "4",
+    "Email": "",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "Applicant"
+      }
+    ],
+    "Attributes": {
+      "Department": ["4"],
+      "Agency": ["2"],
+      "EmployeeNumber": [""]
+    }
+  },
+  {
+    "Id": "4804a5a5-bedf-4731-92d7-a1e8e460da5a",
+    "Username": "employee5",
+    "FirstName": "employee",
+    "LastName": "5",
+    "Email": "",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "Applicant"
+      },
+      {
+        "ClientId": "realm_access",
+        "Name": "Applicant"
+      }
+    ],
+    "Attributes": {
+      "Department": [ "5"],
+      "Agency": [ "2"],
+      "EmployeeNumber": [ ""]
+    }
+  },
+  {
+    "Id": "6442128e-d8ac-4355-aa4a-53a9b4eac17a",
+    "Username": "employee3",
+    "FirstName": "\u0637\u0644\u0627\u0644",
+    "LastName": "\u0639\u0644\u064A\u0627\u0646 - \u0645\u0642\u062F\u0645 \u0637\u0644\u0628\u0627\u062A",
+    "Email": "employee3@email.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "Applicant"
+      }
+    ],
+    "Attributes": {
+      "Department": ["3"],
+      "Agency": ["2"],
+      "EmployeeNumber": ["7009"]
+    }
+  },
+  {
+    "Id": "6d5c3259-2b5c-4176-98c5-1225e56d69c4",
+    "Username": "knowledgemanager1",
+    "FirstName": "\u0645\u062D\u0645\u062F",
+    "LastName": "\u0633\u0644\u064A\u0645 - \u0645\u062F\u064A\u0631 \u0645\u0631\u0643\u0632 \u0627\u0644\u0645\u0639\u0631\u0641\u0629",
+    "Email": "knowledgemanager1@email.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "KnowledgeManager"
+      }
+    ],
+    "Attributes": {
+      "Department": ["28"],
+      "Agency": [ "5" ],
+      "EmployeeNumber": ["3"]
+    }
+  },
+  {
+    "Id": "7b3f20a1-4f8e-4fb2-b219-6031ac6666bb",
+    "Username": "employee1",
+    "FirstName": "\u0635\u0647\u064A\u0628",
+    "LastName": "\u0628\u0646 \u0633\u0639\u064A\u0641\u0627\u0646 - \u0645\u0642\u062F\u0645 \u0637\u0644\u0628\u0627\u062A",
+    "Email": "applicant1@email.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "Applicant"
+      }
+    ],
+    "Attributes": {
+      "Department": ["24"],
+      "Agency": ["4"],
+      "EmployeeNumber": [ "2"]
+    }
+  },
+  {
+    "Id": "87e0b064-92dd-4b32-b2f3-44351358dda9",
+    "Username": "manager1",
+    "FirstName": "\u0645\u062D\u0645\u062F",
+    "LastName": "\u0627\u0644\u0637\u0628\u062C\u064A - \u0627\u0644\u0645\u062F\u064A\u0631 \u0627\u0644\u0645\u0628\u0627\u0634\u0631",
+    "Email": "manager1@email.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "Manager"
+      }
+    ],
+    "Attributes": {
+      "Department": ["24"],
+      "Agency": ["4"],
+      "EmployeeNumber": ["5" ]
+    }
+  },
+  {
+    "Id": "94fe2807-3010-4bd3-b06f-97f502d00832",
+    "Username": "manager4",
+    "FirstName": "manager",
+    "LastName": "4",
+    "Email": "",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "Manager"
+      }
+    ],
+    "Attributes": {
+      "Department": ["4" ],
+      "Agency": [ "2" ],
+      "EmployeeNumber": [ ""]
+    }
+  },
+  {
+    "Id": "96761a72-0802-4a4a-9089-315ebbf06732",
+    "Username": "docscenterspecialist-1",
+    "FirstName": "\u0631\u064A\u0645\u0627 \u0628\u0646 \u0645\u062D\u0633\u0646",
+    "LastName": "-\u0623\u062E\u0635\u0627\u0626\u064A \u0645\u0631\u0643\u0632 \u0627\u0644\u0648\u062B\u0627\u0626\u0642",
+    "Email": "docscenterspecialist-1@email.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "DocsCenterSpecialist"
+      }
+    ],
+    "Attributes": {
+      "Department": [ ""],
+      "Agency": [""],
+      "EmployeeNumber": [""]
+    }
+  },
+  {
+    "Id": "999c3837-8702-4a88-82e1-9488b12fc379",
+    "Username": "cybersecurity1",
+    "FirstName": "\u0637\u0627\u0631\u0642",
+    "LastName": "\u0628\u0646 \u0627\u0644\u0627\u063A\u0627 - \u0627\u0644\u0623\u0645\u0646 \u0627\u0644\u0633\u064A\u0628\u0631\u0627\u0646\u064A",
+    "Email": "cybersecurity1@email.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "CyberSecurity"
+      }
+    ],
+    "Attributes": {
+      "Department": [ ""],
+      "Agency": [ ""],
+      "EmployeeNumber": ["1" ]
+    }
+  },
+  {
+    "Id": "9d7268bd-72fd-4076-a43c-c960dd7548e5",
+    "Username": "knowledgespecialist2",
+    "FirstName": "\u0627\u062E\u0635\u0627\u0626\u064A \u0645\u0631\u0643\u0632 ",
+    "LastName": " \u0645\u0639\u0631\u0641\u0629 2",
+    "Email": "knowledge@test.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "KnowledgeSpecialist"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        ""
+      ],
+      "Agency": [
+        ""
+      ],
+      "EmployeeNumber": [
+        ""
+      ]
+    }
+  },
+  {
+    "Id": "ab3a7af9-14a5-438d-b7ab-c4f18d950ab3",
+    "Username": "employee6",
+    "FirstName": "emnployee",
+    "LastName": "6",
+    "Email": "",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "Applicant"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "6"
+      ],
+      "Agency": [
+        "2"
+      ],
+      "EmployeeNumber": [
+        ""
+      ]
+    }
+  },
+  {
+    "Id": "b735fa7d-3fa5-48dc-aaa7-7652a25fe98e",
+    "Username": "manager2",
+    "FirstName": "\u0645\u0635\u0639\u0628",
+    "LastName": "\u0623\u0628\u0648 \u0632\u064A\u062F - \u0645\u062F\u064A\u0631 \u0645\u0628\u0627\u0634\u0631",
+    "Email": "manager2@email.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "Manager"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "13"
+      ],
+      "Agency": [
+        "2"
+      ],
+      "EmployeeNumber": [
+        "7008"
+      ]
+    }
+  },
+  {
+    "Id": "d21a5591-8ae3-44ab-8f0b-6bb3a7e3f06f",
+    "Username": "manager8",
+    "FirstName": "manager",
+    "LastName": "8",
+    "Email": "",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "Manager"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "8"
+      ],
+      "Agency": [
+        "2"
+      ],
+      "EmployeeNumber": [
+        "\u00270505\u0027"
+      ]
+    }
+  },
+  {
+    "Id": "dbfdca3b-ba2e-4a29-984d-05bb862e09b8",
+    "Username": "employee2",
+    "FirstName": "\u0641\u0627\u0631\u0633",
+    "LastName": "\u0635\u0628\u0627\u062D - \u0645\u0642\u062F\u0645 \u0637\u0644\u0628\u0627\u062A",
+    "Email": "employee2@email.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "Applicant"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "13"
+      ],
+      "Agency": [
+        "2"
+      ],
+      "EmployeeNumber": [
+        "7007"
+      ]
+    }
+  },
+  {
+    "Id": "f478a6e0-24ea-4ee1-be3e-54de474c7958",
+    "Username": "manager7",
+    "FirstName": "manager",
+    "LastName": "7",
+    "Email": "manager7@gmail.com",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "Manager"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "20"
+      ],
+      "Agency": [
+        "3"
+      ],
+      "EmployeeNumber": [
+        ""
+      ]
+    }
+  },
+  {
+    "Id": "f6ebb869-736c-49f3-b98d-0b9bb00a246d",
+    "Username": "manager5",
+    "FirstName": "manager",
+    "LastName": "5",
+    "Email": "",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "Manager"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "5"
+      ],
+      "Agency": [
+        "2"
+      ],
+      "EmployeeNumber": [
+        ""
+      ]
+    }
+  },
+  {
+    "Id": "ff722989-918a-4a1d-a871-69d00b113763",
+    "Username": "manager3",
+    "FirstName": "",
+    "LastName": "",
+    "Email": "",
+    "Roles": [
+      {
+        "ClientId": "web-api-client",
+        "Name": "Manager"
+      }
+    ],
+    "Attributes": {
+      "Department": [
+        "3"
+      ],
+      "Agency": [
+        "2"
+      ],
+      "EmployeeNumber": [
+        ""
+      ]
+    }
+  }
+]

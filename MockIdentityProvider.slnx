@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MockIdentityProvider.Core/MockIdentityProvider.Core.csproj" />
+  <Project Path="MockIdentityProvider.Domain/MockIdentityProvider.Domain.csproj" />
+  <Project Path="MockIdentityProvider.Infrastructure/MockIdentityProvider.Infrastructure.csproj" />
+  <Project Path="MockIdentityProvider/MockIdentityProvider.csproj" />
+</Solution>
